@@ -1,0 +1,12 @@
+show databases;
+create database pratice1;
+use pratice1;
+create table Customer (
+CustomerId int(2)  primary key,
+CustomerName varchar(15),
+City char(20),
+PhoneNumber char(20)
+);
+insert into Customer (CustomerId, CustomerName, City, PhoneNumber) values (1,"Joshua","Chester","23773742");
+insert into Customer (CustomerId, CustomerName, City, PhoneNumber) values (2,"Joe","Hull","7843847437");
+insert into Customer (CustomerId, CustomerName, City, PhoneNumber) values (2,"Hank","Manchester","374892924");
