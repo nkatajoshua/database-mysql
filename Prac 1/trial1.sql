@@ -11,3 +11,7 @@ insert into Customer (CustomerId, CustomerName, City, PhoneNumber) values (1,"Jo
 insert into Customer (CustomerId, CustomerName, City, PhoneNumber) values (2,"Joe","Hull","7843847437");
 insert into Customer (CustomerId, CustomerName, City, PhoneNumber) values (4,"Hank","Manchester","374892924");
 insert into Customer (CustomerId, CustomerName, City, PhoneNumber) values (5,"Frank","Norwich","984389729");
+show databases;
+use pratice1;
+select * from Customer;
+select name from Customer where CustomerName like '%o%';
